@@ -1,5 +1,5 @@
 body{
-    background-color: red;
+    background-color: rgb(55, 0, 255);
     transition: all 4.5s;
 }
 h1{
@@ -415,11 +415,13 @@ p{
 
 }
 
-@media screen and(max-width:800px) and (min-width: 600px){
+@media screen and(max-width:800px) and (min-width: 500px){
     body{
         width: 100%;
         min-width: 200px;
         max-width: 300px;
+        transition: all 4.5s;
+        background-color: rgb(168, 104, 104);
     }
     #cambio{
         width: 100%;
@@ -439,12 +441,12 @@ p{
     
    
 }
-/* @media screen and(orientation: landscape){
+@media screen and(orientation: landscape){
     body{
         transition: all 4.5s;
-        background-color: rgba(233, 13, 13);
+        background-color: rgb(168, 104, 104);
     }
     h1{
         color: blue
     }
-} */
+}
