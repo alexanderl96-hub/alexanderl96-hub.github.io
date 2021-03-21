@@ -421,7 +421,7 @@ p{
         min-width: 200px;
         max-width: 300px;
     }
-    /* #cambio{
+    #cambio{
         width: 100%;
         min-width: 200px;
         max-width: 300px;
@@ -435,7 +435,7 @@ p{
         width: 100%;
         min-width: 200px;
         max-width: 300px;
-    } */
+    }
     
    
 }
