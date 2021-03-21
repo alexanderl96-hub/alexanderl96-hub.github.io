@@ -1,10 +1,12 @@
 body{
-    background-color:red
+    background-color: red;
+    transition: all 4.5s;
 }
 h1{
     font-family: 'Engravers Old English';
     text-align: center;
     font-size: 30px;
+    /* color: black; */
 }
 .links{
     display: flex;
@@ -39,31 +41,26 @@ h1{
     border: 1px solid black;
 }
 .presentation{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-auto-rows: minmax(100px, auto);
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
 }
 #img{
-    grid-column:1/ 4 ;
-    grid-row: 1 / 4;
-    margin-top: 15px;
-    margin-left: 25px;
+    float: left;
+    margin: 25px;
     border-radius: 50%;
-    border: 3px solid black;
-    width: 100%; 
+    border: 2px solid black;
+    width: 260px; 
 }
 h2{
-    grid-column:5/ 10;
-    grid-row: 1/2;
     text-align: center;
-    font-size: 35px;
-    margin-top:  90px;
+    font-size: 25px;
+    margin-top:  100px;
 }
 p{
-    grid-column:5/ 11 ;
-    grid-row: 2/3;
     word-wrap: break-word;
     font-size: 20px;
+    text-align: center;
 }
 .pdf{
     font-size: 27px;
@@ -75,7 +72,8 @@ p{
 #bullet-skills{
     font-style: oblique;
     font-size: 80%;
-    margin-right: 20%;
+    margin-right: 10%;
+    margin-left: 3%;
     opacity: 1;
     transform: scale(1.8) ;
     color: rgb(4, 0, 255);
@@ -293,8 +291,9 @@ p{
 }
 #child-bullet{
     font-style: oblique;
-    font-size: 75%;
-    margin-right: 20%;
+    font-size: 80%;
+    margin-right: 10%;
+    margin-left: 3%;
     opacity: 1;
     transform: scale(1.8) ;
     color: rgb(4, 0, 255);
@@ -305,63 +304,71 @@ p{
     transform: scale(2.2);
     color: black;
 }
+
 #form1{
-    margin-left: 52px;
+    margin-top: 210px;
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
+    
 }
 #form2{
-    margin-top: 3px;
-    margin-left: 110px;
+    margin-top: 2px;
+    margin-left: 273px; 
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
 }
 #form3{
-    margin-top: 7px;
-    margin-left: 110px;
+    margin-top: 25px;
+    margin-left: 760px;
     font-size: 100%;
     text-align: center;
     border-radius: 10px;
 }
 #point{
-    grid-column: 1/2;
-    grid-row: 1/6;
+   float: left;
+   margin-right: 25%;
 }
 #form4{
     height: 225px;
-    margin-left: 25px;
     margin-top: 3px;
+    margin-left: 150px;
+    margin-right: 50%;
     border-radius: 7px;
 }
 #form5{
     border-radius: 10%;
     border: 1px solid rgb(26, 26, 31);
     height: 25px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
   
 }
 #form6{
-    text-align: end;
+    
+    font-size: 20px;
+    margin-left: 200px;
+   
+   
 }
 #Hpage{
     height: 30px; 
-    margin-right: 80px;
+    margin-right: 0.5%;
 }
 .Hpage4{
     height: 30px; 
+    margin-right: 0.5%;
 }
 .one{
-    height: 30px;
+    height: 40px;
     border-radius: 50%;
 }
 .two{
-    height: 30px;
+    height: 40px;
     border-radius: 50%;  
 }
 .tree{
-    height: 30px;
+    height: 40px;
     border-radius: 50%;
 }
 #tree{
@@ -384,21 +391,17 @@ p{
     margin-right: 0px;
 }
 #last{
-    display: grid;  
-    gap: 5px;
-    padding: 30px;
-    margin-top: 25px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px; 
 }
-#norm{
-
-    grid-column: 2/3;
-    grid-row: 2/ 10;
-   padding: 10px;
+#norma{
+    float: right;
+    margin-top: 45px;
+   
 }
 #con-bullet{
-    font-size: 20px;
+    font-size: 25px;
     
 }
 #con-bullet:hover{
@@ -412,14 +415,13 @@ p{
 
 }
 
-@media screen and(max-width:800px){
+@media screen and(max-width:800px) and (min-width: 600px){
     body{
         width: 100%;
         min-width: 200px;
         max-width: 300px;
     }
-   
-    #cambio{
+    /* #cambio{
         width: 100%;
         min-width: 200px;
         max-width: 300px;
@@ -433,7 +435,16 @@ p{
         width: 100%;
         min-width: 200px;
         max-width: 300px;
-    }
+    } */
     
    
 }
+/* @media screen and(orientation: landscape){
+    body{
+        transition: all 4.5s;
+        background-color: rgba(233, 13, 13);
+    }
+    h1{
+        color: blue
+    }
+} */
