@@ -448,7 +448,7 @@ p{
 
 }
 
-@media (max-width:800px) {
+@media (max-width:800px) and (min-width: 600px){
     body{
         width: 100%;
         min-width: 200px;
