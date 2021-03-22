@@ -448,7 +448,7 @@ p{
 
 }
 
-@media screen and(max-width:800px) and (min-width: 600px){
+@media (max-width:800px) {
     body{
         width: 100%;
         min-width: 200px;
@@ -473,7 +473,7 @@ p{
    
 }
 
-@media screen and(orientation: landscape){
+@media (orientation: landscape){
     body{
         transition: all 4.5s;
         background-color: rgb(241, 22, 22);
