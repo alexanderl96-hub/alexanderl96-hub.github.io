@@ -54,12 +54,12 @@ h1{
     border-radius: 50%;
     border: 2px solid black;
     width: 220px; 
-    /* transition: all 0.8s; */
+    transition: all 0.8s;
 }
-/* #img:hover{
+#img:hover{
     transition: all 1.0s;
     transform: scale(1.2);
-} */
+}
 h2{
     text-align: center;
     font-size: 25px;
@@ -69,7 +69,6 @@ p{
     word-wrap: break-word;
     font-size: 20px;
     text-align: center;
-    /* margin-top: -15px; */
 }
 .pdf{
     font-size: 27px;
