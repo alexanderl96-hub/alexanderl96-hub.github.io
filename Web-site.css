@@ -53,23 +53,23 @@ h1{
     margin: 25px;
     border-radius: 50%;
     border: 2px solid black;
-    width: 260px; 
-    transition: all 0.8s;
+    width: 220px; 
+    /* transition: all 0.8s; */
 }
-#img:hover{
+/* #img:hover{
     transition: all 1.0s;
     transform: scale(1.2);
-}
+} */
 h2{
     text-align: center;
     font-size: 25px;
-    margin-top:  100px;
+    margin-top:  150px;
 }
 p{
     word-wrap: break-word;
     font-size: 20px;
     text-align: center;
-    margin-top: -15px;
+    /* margin-top: -15px; */
 }
 .pdf{
     font-size: 27px;
@@ -128,7 +128,9 @@ p{
   
 }
 #camPro{
-    background-image: url(images/gif/204314074cdff584f32a03e5aac3ebb9.gif)
+    width: 50%;
+    /* background-image: url(images/gif/204314074cdff584f32a03e5aac3ebb9.gif) */
+    
    
 }
 .projects{
@@ -168,11 +170,7 @@ p{
 #present1{
     color: black;
     font-style: oblique;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 60px;
-    margin-left: 10px;
+    margin-top: 70px;
 }
 .tr80{
     display: inline-block;
@@ -193,9 +191,8 @@ p{
 #puerto{
     float: right;
     margin-top: 20px;
-    margin-left: 10px;
-    height: 300px;
-    width: 370px;
+    height: 250px;
+    width: 270px;
     border-radius: 10px;
     margin-right: 20px;
 }
@@ -448,7 +445,7 @@ p{
 
 }
 
-@media (max-width:800px) and (min-width: 600px){
+@media (max-width:800px) {
     body{
         width: 100%;
         min-width: 200px;
