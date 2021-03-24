@@ -83,21 +83,6 @@ p{
 #cambio{
     background-image: url(images/gif/a2b20cad9728d2ea8fb07e1e0a8b00c8.gif) ;
 }
-#bullet-skills{
-    font-style: oblique;
-    font-size: 80%;
-    margin-right: 10%;
-    margin-left: 3%;
-    opacity: 1;
-    transform: scale(1.8) ;
-    color: rgb(4, 0, 255);
-    align-items: center;
-}
-#bullet-skills:hover{
-    transition: all 1.2s;
-    transform: scale(2.2);
-    color: black;
-}
 #skills{
     padding: 15px;
     height: 20px;
@@ -299,21 +284,6 @@ p{
     transform: scale(1.5);
     width: 350px;
 }
-#child-bullet{
-    font-style: oblique;
-    font-size: 80%;
-    margin-right: 10%;
-    margin-left: 3%;
-    opacity: 1;
-    transform: scale(1.8) ;
-    color: rgb(4, 0, 255);
-    align-items: center;
-}
-#child-bullet:hover{
-    transition: all 1.2s;
-    transform: scale(2.2);
-    color: black;
-}
 #form1{
     text-align: center;
     font-size: 20px;
@@ -346,10 +316,6 @@ p{
     transition: all 1.0s;
     transform: scale(1.5);
 }
-#point{
-   float: left;
-   margin-right: 25%;
-}
 #form4{
     height: 225px;
     margin-top: 3px;
@@ -381,10 +347,6 @@ p{
     margin-left:50%; 
 }
 #Hpage{
-    height: 30px; 
-    margin-right: 0.5%;
-}
-.Hpage4{
     height: 30px; 
     margin-right: 0.5%;
 }
@@ -428,16 +390,6 @@ p{
     float: right;
     margin-top: 45px;
    
-}
-#con-bullet{
-    font-size: 25px;
-    
-}
-#con-bullet:hover{
-    transition: all 1.3s;
-    color: black;
-    font-size: 28px;
-    font-style: oblique;
 }
 #fellow:hover{
     color: white;
