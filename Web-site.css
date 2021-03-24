@@ -8,7 +8,7 @@ h1{
     font-family: 'Engravers Old English';
     text-align: center;
     font-size: 30px;
-    /* color: black; */
+    color: black;
 }
 .links{
     display: flex;
@@ -475,6 +475,6 @@ p{
         background-color: rgb(241, 22, 22);
     }
     h1{
-        color: blue
+        color: blue;
     }
 }
