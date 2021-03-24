@@ -2,13 +2,13 @@
     margin: 0px;
 }
 body{
-    background-color: rgba(10, 29, 236, 0.892);
+    background-color: #3515D5;
 }
 h1{
     font-family: 'Engravers Old English';
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: #e3e3e3;
 }
 .links{
     display: flex;
