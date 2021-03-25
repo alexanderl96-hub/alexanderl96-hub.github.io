@@ -3,6 +3,7 @@
 }
 body{
     background-color: #3515D5;
+    transition: all 4.5s;
     height: 100%;
 }
 h1{
@@ -156,6 +157,7 @@ p{
     color: black;
     font-style: oblique;
     margin-top: 70px;
+    text-align: center;
 }
 .tr80{
     display: inline-block;
@@ -174,7 +176,7 @@ p{
     transform: scale(1.5);
 }
 #puerto{
-    float: left;
+    float:right;
     margin-top: 20px;
     height: 250px;
     /* width: 350px; */
