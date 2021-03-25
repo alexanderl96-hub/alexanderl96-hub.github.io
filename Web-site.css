@@ -3,6 +3,7 @@
 }
 body{
     background-color: #3515D5;
+    height: 100%;
 }
 h1{
     font-family: 'Engravers Old English';
@@ -13,6 +14,7 @@ h1{
 .links{
     display: flex;
     justify-content: flex-end;
+    margin-right: 10px;
 }
 .home-bar {
     display: flex;
@@ -112,9 +114,8 @@ p{
   
 }
 #camPro{
-    width: 50%;
     /* background-image: url(images/gif/204314074cdff584f32a03e5aac3ebb9.gif) */
-    
+    width: 100%;
    
 }
 .projects{
@@ -173,17 +174,17 @@ p{
     transform: scale(1.5);
 }
 #puerto{
-    float: right;
+    float: left;
     margin-top: 20px;
     height: 250px;
-    width: 270px;
+    /* width: 350px; */
     border-radius: 10px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 #tw-1{
     float: left;
     height: 280px;
-    width: 470px;
+    /* width: 470px; */
     border-radius: 15%;
     opacity: 0.7;
     margin-top: 20px;
@@ -199,7 +200,7 @@ p{
 }
 #tw-2{
     height:280px;
-    width: 470px;
+    /* width: 470px; */
     border-radius: 15%;
     opacity: 0.7;
     margin-top: 20px;
@@ -283,6 +284,9 @@ p{
     opacity: 1;
     transform: scale(1.5);
     width: 350px;
+}
+#pro{
+
 }
 #form1{
     text-align: center;
@@ -397,26 +401,18 @@ p{
 
 }
 
-@media (max-width:800px) {
+@media (max-width:800px) and (min-width: 600px){
     body{
         width: 100%;
-        min-width: 200px;
-        max-width: 300px;
     }
     #cambio{
         width: 100%;
-        min-width: 200px;
-        max-width: 300px;
     }
     #camPro{
         width: 100%;
-        min-width: 200px;
-        max-width: 300px;
     }
     #pro{
-        width: 100%;
-        min-width: 200px;
-        max-width: 300px;
+        width: 100%; 
     }
     
    
