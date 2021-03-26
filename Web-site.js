@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
       img.src = "https://i.imgur.com/4qMZueg.jpg"
       }
   }
+  
+  // Where is img defined?
+  // simpler version: img.addEventListener("mouseover", change)
   img.addEventListener("mouseover", ()=>{change()})
 
   
