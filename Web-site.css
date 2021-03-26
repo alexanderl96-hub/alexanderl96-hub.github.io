@@ -99,6 +99,8 @@ p{
     font-size: 20px;
     margin-left: 45px;
 }
+
+/* I didn't notice any DOM elements with this id on any of your html pages!*/
 #card{
     display: grid;
     margin-top: 30px;
