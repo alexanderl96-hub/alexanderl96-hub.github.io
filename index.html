@@ -9,20 +9,25 @@
     <link rel="stylesheet" href="Web-site.css">
 </head>
 <body>
+    <!--   It looks to me like your h1, div.links, and div.home-bar make up a header section. Consider grouping them inside a <header> tag!   -->
     <h1 >Alexander La Rosa Perez</h1>
     <br>
     <div class="links">
+        <!--     Each of these <a> tags should have a closing tag!     -->
         <a  href="https://github.com/alexanderl96-hub"> <img src="images/images.png" class="one"> 
         <a  href="https://www.linkedin.com/in/alexander-la-rosa-p%C3%A9rez-2b36a085/"> <img src="images/in 2.png" class="two">
         <a href="https://twitter.com/LperezAlexander" ><img src="images/twitter.png" class="tree">
     </div>
-    
+     <!--   You could use a semantic HTML tag (like <nav>) to tell me more about what this part of your web app is used for!   -->
     <div class="home-bar">
+        <!--   ids are supposed to be unique! Use class="bullet" instead       -->
         <a id="bullet" href="aboutme.html" placeholder="">About Me</a>
         <a id="bullet" href="skills.html" placeholder="">Skills</a>
         <a id="bullet" href="projects.html" placeholder="">Projects</a>
         <a id="bullet" href="contact.html" placeholder="">Contact</a>
     </div>
+        
+<!--   Same here, consider using a semantic tag like an article, section, or main.    -->
     <div class="presentation">
         <div >
             <img src="https://i.imgur.com/4qMZueg.jpg" id="img" alt="Me"></a>  
