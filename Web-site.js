@@ -17,7 +17,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
       img.src = "https://i.imgur.com/4qMZueg.jpg"
       }
   }
-  img.addEventListener("mouseover", ()=>{change()})
+  img.addEventListener("mouseover", e =>{
+    e.preventDefault()
+    change()
+  })
 
   
 })

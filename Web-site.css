@@ -17,7 +17,7 @@ h1{
     justify-content: flex-end;
     margin-right: 10px;
 }
-.home-bar {
+.nav {
     display: flex;
     border: 3px solid grey;
     text-shadow: 0 0 5px rgb(100, 84, 84);
@@ -26,7 +26,7 @@ h1{
     align-items:center;
     background-color:  rgba(0, 255, 255, 0.503);
 }
-#bullet{
+.bullet{
     border: 2px solid black;
     border-radius: 20%;
     font-style: oblique;
@@ -40,7 +40,7 @@ h1{
     align-items: center;
     justify-content: space-evenly;
 }
-#bullet:hover{
+.bullet:hover{
     transition: all 1.2s;
     transform: scale(2.2);
     color: black;
@@ -98,13 +98,6 @@ p{
     color: white;
     font-size: 20px;
     margin-left: 45px;
-}
-#card{
-    display: grid;
-    margin-top: 30px;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
 }
 .cardAll{
     border-radius: 10%;
@@ -394,7 +387,7 @@ p{
     margin-top: 15px; 
 }
 #norma{
-    float: right;
+    /* float: right; */
     margin-top: 45px;
    
 }
@@ -427,5 +420,7 @@ p{
     }
     h1{
         color: blue;
+        font-family: 'Engravers Old English';
     }
+    
 }
