@@ -283,18 +283,20 @@ p{
     width: 350px;
 }
 #pro{
-
+    width: 100%;
 }
 #form1{
     text-align: center;
     border-radius: 10px;
     margin-top: 2px;
-    font-size: 25px; 
-   
+    font-size: 17px; 
+    transition: all 1.5s; 
 }
 .form1{
-    grid-column: 2/2; 
+    margin-top: auto;
+    grid-column: 2/3; 
     grid-row: 1/2;
+    
 }
 #form1:hover{
     transition: all 1.0s;
@@ -304,66 +306,75 @@ p{
     text-align: center;
     border-radius: 10px;
     margin-top: 2px;
-    font-size: 25px; 
-    grid-column: 1/23; 
+    font-size: 17px; 
+    grid-column: 2/3; 
     grid-row: 3/3;
+    transition: all 1.5s;
 }
 #form2:hover{
     transition: all 1.0s;
     transform: scale(1.5);
 }
 .form2{
-    grid-column: 2/2; 
+    margin-top: 10px;
+    grid-column: 2/3; 
     grid-row: 2/3;
 }
 #form3{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     border-radius: 10px;
+    transition: all 1.5s;
 }
 #form3:hover{
     transition: all 1.0s;
     transform: scale(1.5);
 }
 .form3{
-    grid-column: 2/2; 
+    grid-column: 2/3; 
     grid-row: 3/4;
 }
 #form4{
     height: 200px;
-    margin-top: 3px;
+    width: 300px;
     border-radius: 7px;
     margin-right: 10px;
     font-size: 15px;
+    transition: all 1.5s;
 }
 #form4:hover{
     transition: all 1.0s;
-    transform: scale(1.5);
+    transform: scale(1.0);
 }
 .form4{
-    grid-column: 2/2; 
+    grid-column: 2/3; 
     grid-row: 4/6;
 }
 #form5{
     border-radius: 10%;
     border: 1px solid rgb(26, 26, 31);
     height: 25px;
-    font-size: 17px;
-    grid-column: 2/2; 
+    font-size: 15px;
+    grid-column: 2/3; 
     grid-row: 6/7;
+    margin-top: 15px;
+    transition: all 1.5s;
 }
 #form5:hover{
     transition: all 1.0s;
-    transform: scale(1.5);
+    transform: scale(1.0);
     background-color: blueviolet;
 }
+
 #form6{
     margin-top: 2px;
-    font-size: 25px; 
-    grid-column: 1/2; 
+    font-size: 20px; 
+    margin-left: 10px;
+    grid-column: 2/3; 
     grid-row: 1/2;
     text-align: center;
+    color: #e3e3e3;
 }
 #Hpage{
     height: 30px; 
@@ -407,7 +418,6 @@ p{
     margin-top: 15px; 
 }
 #norm{
-    /* float: right; */
     margin-top: 45px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -423,7 +433,7 @@ p{
     body{
         width: 100%;
     }
-    #cambio{
+    /* #cambio{
         width: 100%;
     }
     #camPro{
@@ -431,7 +441,7 @@ p{
     }
     #pro{
         width: 100%; 
-    }
+    } */
     
    
 }
@@ -475,5 +485,37 @@ p{
     #present4{
         color: black;
     }
+    #form6{
+        transition: all 1.5s;
+        color: black;
+        font-size: 25px;
+    }
+    #form1{
+        transition: all 1.5s;
+        font-size: 25px;
+    }
+    #form2{
+        transition: all 1.5s;
+        font-size: 25px;
+    }
+    #form3{
+        transition: all 1.5s;
+        font-size: 25px;
+    }
+    #form4{
+        transition: all 1.5s;
+        height: 350px;
+        width: 450px;
+        font-size: 20px;
+    }
+    #form5{
+        transition: all 1.5s;
+        height: 30px;
+        font-size: 20px;
+    }
+
+
+
+
     
 }
