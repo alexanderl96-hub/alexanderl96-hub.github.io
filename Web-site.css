@@ -128,19 +128,22 @@ p{
 }
 .projects{
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
     font-size: 25px;
     color: aliceblue;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
-    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(100px, auto);
 }
 #inicio{
     color: white;
     font-size: 30px;
     text-align: center;
     transition: all 0.5s;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 #inicio:hover{
     transition: all 0.7s;
@@ -153,134 +156,134 @@ p{
     color: #e3e3e3;
     font-style: oblique;
     transition: all 0.7s;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 #present1{
     color: #e3e3e3;
     font-style: oblique;
-    margin-top: 70px;
     text-align: center;
-}
-.tr80{
-    display: inline-block;
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
 #more{
     border: 1px solid black;
     background-color: rgba(137, 43, 226, 0.712);
     color: black;
+    height: 25px;
+    margin: auto;
     font-size: 15px;
-    width: 15%;
-    margin-left: 80%;
-    margin-top: 50%;
+    grid-column: 1/2;
+    grid-row: 5/6;
 }
 #more:hover{
     transition: all 1.5s;
     transform: scale(1.5);
 }
 #puerto{
-    float:right;
     margin-top: 20px;
-    height: 250px;
-    /* width: 350px; */
+    height: 200px;
+    width: 280px;
     border-radius: 10px;
-    /* margin-right: 20px; */
+    grid-column: 1/2;
+    grid-row: 4/5;
 }
 #tw-1{
-    float: left;
-    height: 280px;
-    /* width: 470px; */
+    height: 200px;
+    width: 300px;
     border-radius: 15%;
     opacity: 0.7;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 2px;
+    grid-column: 1/2;
+    grid-row: 6/7;
    
 }
 #tw-1:hover{
     opacity: 1;
-    transform: scale(1.5);
-    margin-left: 55px;
-    height:280px;
-    width: 340px;
+    transform: scale(1.2);
+    width: 270px;
 }
 #tw-2{
-    height:280px;
-    /* width: 470px; */
+    height:200px;
+    width: 300px;
     border-radius: 15%;
     opacity: 0.7;
-    margin-top: 20px;
-    margin-right: 20px;  
+    margin-top: 5px;  
+    grid-column: 1/2;
+    grid-row: 7/8;
 }
 #tw-2:hover{
-    margin-top: 80px;
+    margin-top: 40px;
     opacity: 1;
-    transform: scale(1.5);
-    width: 350px;
+    transform: scale(1.2);
+    width: 270px;
 }
 #present3{
+    margin: auto;
     color:#e3e3e3;
     font-style: oblique;
-    margin-top: 20px;
     transition: all 0.7s;
+    grid-column: 1/2;
+    grid-row: 9/10;
 }
 #present4{
     color: #e3e3e3;
     font-style: oblique;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 60px;
-    margin-left: 10px;
+    grid-column: 1/2;
+    grid-row: 10/11;
 }
 #more1{
     border: 1px solid black;
     background-color: rgba(137, 43, 226, 0.712);
     color: black;
+    height: 25px;
+    margin: auto;
     font-size: 15px;
-    width: 15%;
-    margin-left: 80%;
-    margin-top: 50%;
+    grid-column: 1/2;
+    grid-row: 12/13;
 }
 #more1:hover{
     transition: all 1.5s;
     transform: scale(1.5);
 }
 #puerto1{
-    float: right;
     margin-top: 20px;
-    margin-left: 10px;
-    height: 300px;
-    width: 370px;
+    height: 180px;
     border-radius: 10px;
-    margin-right: 20px;
+    grid-column: 1/2;
+    grid-row: 11/12;
 }
 #sn-1{
-    float: left;
-    height: 280px;
-    width: 470px;
+    height:200px;
+    width: 300px;
     border-radius: 15%;
     opacity: 0.7;
-    margin-top: 20px;
-    margin-left: 2px;
+    margin-top: 5px;  
+    grid-column: 1/2;
+    grid-row: 13/14;
 }
 #sn-1:hover{
     opacity: 1;
-    transform: scale(1.5);
-    margin-left: 55px;
-    height:280px;
-    width: 340px;
+    transform: scale(1.2);
+    width: 270px;
 }
 #sn-2{
-    height:280px;
-    width: 470px;
+    height:200px;
+    width: 300px;
     border-radius: 15%;
     opacity: 0.7;
-    margin-top: 20px;
-    margin-right: 20px;  
+    margin-top: 10px;
+    /* margin: auto;   */
+    grid-column: 1/2;
+    grid-row: 14/15;
 }
 #sn-2:hover{
-    margin-top: 80px;
+    margin-top: 40px;
     opacity: 1;
-    transform: scale(1.5);
-    width: 350px;
+    transform: scale(1.2);
+    width: 270px;
 }
 #pro{
     width: 100%;
@@ -367,7 +370,6 @@ p{
     transform: scale(1.0);
     background-color: blueviolet;
 }
-
 #form6{
     margin-top: 2px;
     font-size: 20px; 
@@ -379,7 +381,9 @@ p{
 }
 #Hpage{
     height: 30px; 
-    margin-right: 0.5%;
+    margin-left: 10px;
+    margin-top: 10px;
+    filter: invert(100%);
 }
 .one{
     height: 40px;
@@ -434,17 +438,7 @@ p{
     body{
         width: 100%;
     }
-    /* #cambio{
-        width: 100%;
-    }
-    #camPro{
-        width: 100%;
-    }
-    #pro{
-        width: 100%; 
-    } */
-    
-   
+     
 }
 
 @media (orientation: landscape){
@@ -510,11 +504,15 @@ p{
         font-size: 20px;
     }
     #form5{
-        color: white;
+        background-color: white;
         transition: all 1.5s;
         height: 30px;
         font-size: 20px;
     }
+    #Hpage{
+        filter: invert(1%);
+    }
+   
 
 
 
