@@ -74,6 +74,7 @@ p{
     font-size: 20px;
     text-align: center;
     color: #e3e3e3;
+    font-family: sans-serif;
 }
 .pdf{
     font-size: 27px;
@@ -166,6 +167,7 @@ p{
     text-align: center;
     grid-column: 1/2;
     grid-row: 3/4;
+    font-family: sans-serif;
 }
 #more{
     border: 1px solid black;
@@ -234,6 +236,7 @@ p{
     text-align: center;
     grid-column: 1/2;
     grid-row: 10/11;
+    font-family: sans-serif;
 }
 #more1{
     border: 1px solid black;
@@ -404,19 +407,18 @@ p{
     height: 1.8em;
 }
 #resume{
+    font-family: sans-serif;
     padding: 15px;
    text-align: justify;
    font-size: 20px;
-   transition: all 3.5s;
+   transition: all 0.3s;
 
 }
 #resume:hover{
-    font-style: oblique;
-    font-family: 'Optima Italic';
-    font-size: 25px;
-    transition: all 6.5s;
+    font-size: 22px;
+    transition: all 0.3s;
     margin-left: 20px;
-    margin-right: 0px;
+    margin-right: 10px;
 }
 #last{
     display: inline-block;
@@ -682,11 +684,4 @@ p{
         width: 370px;
     }
 
-
-   
-
-
-
-
-    
 }
