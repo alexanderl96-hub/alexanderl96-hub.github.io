@@ -8,19 +8,29 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
   })
       
-
+  let img = document.querySelector('#img');
   function change(){
-    let img = document.querySelector('#img');
       if(img.src !== "https://i.imgur.com/8Ba9n5K.jpg"){
         img.src = "https://i.imgur.com/8Ba9n5K.jpg"
       }else{
       img.src = "https://i.imgur.com/4qMZueg.jpg"
       }
   }
-  img.addEventListener("mouseover", e =>{
-    e.preventDefault()
-    change()
-  })
+  
+  img.addEventListener("mouseover", change )
+
+  // function change(){
+  //   // let img = document.querySelector('#img');
+  //     if(img.src !== "https://i.imgur.com/8Ba9n5K.jpg"){
+  //       img.src = "https://i.imgur.com/8Ba9n5K.jpg"
+  //     }else{
+  //     img.src = "https://i.imgur.com/4qMZueg.jpg"
+  //     }
+  // }
+  // img.addEventListener("mouseover", e =>{
+  //   e.preventDefault()
+  //   change()
+  // })
 
   
 })
