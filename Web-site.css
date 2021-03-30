@@ -409,16 +409,8 @@ p{
 #resume{
     font-family: sans-serif;
     padding: 15px;
-   text-align: justify;
-   font-size: 20px;
-   transition: all 0.3s;
-
-}
-#resume:hover{
+    text-align: justify;
     font-size: 22px;
-    transition: all 0.3s;
-    margin-left: 20px;
-    margin-right: 10px;
 }
 #last{
     display: inline-block;
