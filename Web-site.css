@@ -7,9 +7,10 @@ body{
     height: 100%;
 }
 h1{
-    font-family: 'Engravers Old English';
+    margin-top: 10px;
+    font-family:'Engravers Old English';
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #e3e3e3;
 }
 .links{
