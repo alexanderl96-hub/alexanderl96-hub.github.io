@@ -116,12 +116,10 @@ p{
     margin-left: 45px;
 }
 .cardAll{
-    border-radius: 10%;
-    grid-column: 1 / 4;
-    grid-row: 1 / 4;
-    margin-left: 10%;
-    padding: 10p
-  
+    display: block;
+    padding: 30px;
+    text-align: center;
+    height: 30px;
 }
 #camPro{
     /* background-image: url(images/gif/204314074cdff584f32a03e5aac3ebb9.gif) */
